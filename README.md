@@ -54,4 +54,4 @@ I decided to get PCBA due to the keybaord requiring several LED and Diodes which
 
 So since I already have most of the components such as rotary encoder, key switches, keycaps, etc, the BOM is prely for the parts I need for the PCB (the extra stuff that I didn't solder from JLC). So the total comes to about 227.98 USD. I really do not know how to make it cheaper as I've sourced everything from the cheapest sites I could find i.e aliexpress.
 
-![shipping](./images/BOM)
+![shipping](./images/BOM.png)
