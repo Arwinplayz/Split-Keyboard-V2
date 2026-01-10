@@ -1,0 +1,236 @@
+(footprint "LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.75 0)
+		(layer "F.SilkS")
+		(uuid "451857b1-342b-474d-be3b-95b845ec5277")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E"
+		(at 0 4.75 0)
+		(layer "F.Fab")
+		(uuid "e8531079-c043-4fda-9ebc-64bb7a04e1fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27682531-787a-4334-8f1e-184e010f6cd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8c16d2f-7a45-4960-9158-5c0c69874557")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -1.4)
+		(end -1.6 -1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98f06888-1880-4293-b876-92fb88414882")
+	)
+	(fp_line
+		(start -1.6 -1.4)
+		(end 1.6 -1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51fc06ec-fb51-4ba2-8dcb-4e0c599947f6")
+	)
+	(fp_line
+		(start -1.6 -0.23)
+		(end -1.6 0.23)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9a4a027-a6f4-4da0-9ca2-bc527cb92397")
+	)
+	(fp_line
+		(start -1.6 1.27)
+		(end -1.6 1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88f9c759-a64b-4889-bfc0-b14ea31ab092")
+	)
+	(fp_line
+		(start -1.6 1.4)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a39718b0-f67b-4483-b3ae-b84f8584a27d")
+	)
+	(fp_line
+		(start 1.6 -1.4)
+		(end 1.6 -1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53d030a7-415a-4751-8a30-d63adbc4973d")
+	)
+	(fp_line
+		(start 1.6 -0.23)
+		(end 1.6 0.23)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bde97905-bf20-464d-90d7-8cd083d7f877")
+	)
+	(fp_line
+		(start 1.6 1.27)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7c35fb1-e431-463e-9b5b-be79e69167e7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.99 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9a71957a-545f-4711-bf93-b8ae565ca3e5")
+	)
+	(fp_circle
+		(center 2.92 -0.76)
+		(end 3.07 -0.76)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "e91c0a2b-559e-42fb-a44d-e8741065b1aa")
+	)
+	(fp_circle
+		(center -2.94 1.4)
+		(end -2.91 1.4)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "88ca1a7e-a153-47bb-8437-dd4da823ae90")
+	)
+	(fp_text user "GND"
+		(at -5.02 1.03 0)
+		(layer "F.SilkS")
+		(uuid "a20ef521-f40a-4727-aab8-e6738398e7c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "357c184d-d6d0-4f7a-9637-3f88df36e5af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.8 -0.75 90)
+		(size 0.82 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e3f1b525-8707-4d3b-9b8b-c66fd4ed58b5")
+	)
+	(pad "2" smd rect
+		(at 2.8 0.75 90)
+		(size 0.82 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e5994b68-db77-47dd-a71c-3efa001148b6")
+	)
+	(pad "3" smd rect
+		(at -2.8 0.75 90)
+		(size 0.82 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7575aa3b-4de5-44e3-bab4-3a7588fa7486")
+	)
+	(pad "4" smd rect
+		(at -2.8 -0.75 90)
+		(size 0.82 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "43dee078-da00-41d7-aa4b-e405b855bab3")
+	)
+	(embedded_fonts no)
+	(model "/lib/lcsc.3dshapes/LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E.wrl"
+		(offset
+			(xyz 0 -0 0.85)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+	(model "C:/Users/Arwinplayz/Downloads/Split Keyboard/V2/lcsc/lib/lcsc.3dshapes/LED-SMD_L3.2-W2.8-LS5.9_SK6812MINI-E.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)
